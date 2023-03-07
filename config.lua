@@ -78,7 +78,7 @@ Config.Harvest = {
         product = { --items to be given, can set multiple items | 給予的物品, 可以設定多個物品
             --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的梳子落在這個範圍時, 給予物品
             {name = 'clothe', count = 1, chance = vec2(0, 100)} ,
-            {name = 'sum_deer', count = 1, chance = vec2(90, 100)} 
+            --{name = 'something_rare', count = 1, chance = vec2(90, 100)} 
         },
         time = 5    --time interval for the harvest to happen (in sec.) | 採集發生的時間間隔 (秒)
     },
