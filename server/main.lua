@@ -31,7 +31,7 @@ else
     else
         canCarry = function(source, item, count)
             local xPlayer = ESX.GetPlayerFromId(source)
-            local xItem = xPlayer.getInventoryItem(name)
+            local xItem = xPlayer.getInventoryItem(item)
             return xItem.count + count <= xItem.limit
         end
     end
