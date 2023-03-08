@@ -60,7 +60,7 @@ Config.Harvest = {
             {name = 'wool', count = 1}
         }, --item to be removed, can set multiple items, put nil to disable | 移除的物品, 可以設定多個物品, 設定為nil來禁用
         product = { --items to be given, can set multiple items | 給予的物品, 可以設定多個物品
-            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的梳子落在這個範圍時, 給予物品
+            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的數字落在這個範圍時, 給予物品
             {name = 'fabric', count = 2, chance = vec2(0, 100)} 
         },
         time = 5    --time interval for the harvest to happen (in sec.) | 採集發生的時間間隔 (秒)
@@ -76,7 +76,7 @@ Config.Harvest = {
             {name = 'fabric', count = 2}
         }, --item to be removed, can set multiple items, put nil to disable | 移除的物品, 可以設定多個物品, 設定為nil來禁用
         product = { --items to be given, can set multiple items | 給予的物品, 可以設定多個物品
-            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的梳子落在這個範圍時, 給予物品
+            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的數字落在這個範圍時, 給予物品
             {name = 'clothe', count = 1, chance = vec2(0, 100)} ,
             --{name = 'something_rare', count = 1, chance = vec2(90, 100)} 
         },
@@ -96,7 +96,7 @@ Config.Harvest = {
         label = 'to harvest oranges',   --hint in the help notification | 按鍵提示後面的文字
         material = nil, --item to be removed, can set multiple items, put nil to disable | 移除的物品, 可以設定多個物品, 設定為nil來禁用
         product = { --items to be given, can set multiple items | 給予的物品, 可以設定多個物品
-            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的梳子落在這個範圍時, 給予物品
+            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的數字落在這個範圍時, 給予物品
             {name = 'orange', count = 1, chance = vec2(0, 100)} 
         },
         time = 5    --time interval for the harvest to happen (in sec.) | 採集發生的時間間隔 (秒)
@@ -116,7 +116,7 @@ Config.Harvest = {
             {name = 'orange', count = 2}
         }, --item to be removed, can set multiple items, put nil to disable | 移除的物品, 可以設定多個物品, 設定為nil來禁用
         product = { --items to be given, can set multiple items | 給予的物品, 可以設定多個物品
-            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的梳子落在這個範圍時, 給予物品
+            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的數字落在這個範圍時, 給予物品
             {name = 'orange_juice', count = 1, chance = vec2(0, 100)} 
         },
         time = 5    --time interval for the harvest to happen (in sec.) | 採集發生的時間間隔 (秒)
