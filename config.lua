@@ -40,7 +40,7 @@ Config.Harvest = {
         label = 'to harvest wool',   --hint in the help notification | 按鍵提示後面的文字
         material = nil, --item to be removed, can set multiple items, put nil to disable | 移除的物品, 可以設定多個物品, 設定為nil來禁用
         product = { --items to be given, can set multiple items | 給予的物品, 可以設定多個物品
-            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的梳子落在這個範圍時, 給予物品
+            --chance: when a random 0-100 number falls into the range, item will be given | chance: 當隨機 0-100 的數字落在這個範圍時, 給予物品
             {name = 'wool', count = 1, chance = vec2(0, 100)} 
         },
         time = 3    --time interval for the harvest to happen (in sec.) | 採集發生的時間間隔 (秒)
