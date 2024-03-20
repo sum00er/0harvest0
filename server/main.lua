@@ -57,6 +57,9 @@ ESX.RegisterServerCallback('0harvest0:harvestItem', function(source, cb, id)
     local xPlayer = ESX.GetPlayerFromId(source)
     local data = Config.Harvest[id]
     local coords = xPlayer.getCoords(true)
+    if type(coords) == 'table' then
+        coords = vec3(coords.x, coords.y, coords.z)
+    end
     if cd[source] or #(coords - data.coords) > ((Config.Marker.x / 2) + Config.Safezone) then --make sure action is valid
         local reason = _U('far_reason_log')
         if cd[source] then
